@@ -10,6 +10,7 @@ const Carte = (props) => {
   return (
     <div>
       <Card style={{ width: '18rem' }}>
+     {/* insertion de notre image a l'aide du Card.Img  */}
       <Card.Img variant="top" src={link} />
       <Card.Body>
         <Card.Title>{destination}</Card.Title>
