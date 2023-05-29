@@ -1,7 +1,8 @@
 import React from 'react'
+{/*importation du composant boostrap */}
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-
+{/* function Carte */}
 const Carte = (props) => {
   const link=props.link
   const destination=props.destination
